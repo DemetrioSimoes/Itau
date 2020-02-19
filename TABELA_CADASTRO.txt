@@ -1,0 +1,8 @@
+CREATE TABLE cadastro(
+	id int(11) NOT NULL AUTO_INCREMENT,
+	nome text,
+	cpf text,
+	email text,
+	datacadastro text,
+	PRIMARY KEY (id)
+);

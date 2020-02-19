@@ -1,0 +1,21 @@
+<h2 class="basic-title">registro de ponto de usuarios</h2>
+<table class="table table-condensed table-bordered table-striped table-hover">
+<thead>
+<tr>
+	<td>id</td>
+	<td>Nome</td>
+	<td>data.hora</td>
+	<td>tipo-entrada</td>
+</tr>
+</thead>
+<tbody>
+<% for(var i=0; i<listaregistro.length;i++){%>
+	<tr>
+		<td><%=	listaregistro[i].id %></td>
+		<td><%= listaregistro[i].nome %></td>
+		<td><%= listaregistro[i].data %></td>
+		<td><%=	listaregistro[i].tipoentrada %></td>
+	</tr>
+<%}%>
+</tbody>
+</table>

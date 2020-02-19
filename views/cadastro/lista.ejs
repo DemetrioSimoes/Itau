@@ -1,0 +1,23 @@
+<h2 class="basic-title">Cadastro de usuarios</h2>
+<table class="table table-condensed table-bordered table-striped table-hover">
+<thead>
+<tr>
+	<td>id</td>
+	<td>Nome</td>
+	<td>cpf</td>
+	<td>email</td>
+	<td>data cadastro</td>
+</tr>
+</thead>
+<tbody>
+<% for(var i=0; i<lista.length;i++){%>
+	<tr>
+		<td><%=	lista[i].id %></td>
+		<td><%= lista[i].nome %></td>
+		<td><%= lista[i].cpf %></td>
+		<td><%=	lista[i].email %></td>
+		<td><%=	lista[i].datacadastro %></td>
+	</tr>
+<%}%>
+</tbody>
+</table>
