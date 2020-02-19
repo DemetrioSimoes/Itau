@@ -1,0 +1,4 @@
+1. Nesta atividade usei o Node e javascript com mysql.
+2. As tabelas estao anexas no .txt
+3. Havia feito o curdo de Node.js com Express e REST.
+4. O fonte está bem basico devido ao pouco tempo e com as atividades no Itaú. O objetivo foi exibir os conceitos que tenho. No itau trabalho com um aapicação que não é web e estamos com o intuito de modernizar noss aplicação.
